@@ -1,0 +1,41 @@
+div{
+  border: 3px black;
+}
+h1{
+  margin-left: 570px;
+}
+body{
+  background:linear-gradient(to top, #3399ff -27%, #cc33ff 106%);
+}
+.paralax{
+  background: url("https://images.unsplash.com/photo-1535940360221-641a69c43bac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+}
+ img{
+   margin: 5px;
+   padding: 5px;
+  width: 200px;
+  height: 250px;
+  border: 10px black;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+}
+
+#lion{
+  height: 350px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  flex-wrap: wrap;
+  margin-left: 555px;
+}
+.pictures {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  flex-wrap: wrap;
+}
